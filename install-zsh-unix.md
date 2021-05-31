@@ -18,8 +18,6 @@
    zsh --version
    ```
 
-   
-
 ### Install `oh-my-zsh`
 
 1. Download and Run the script
@@ -34,11 +32,9 @@
    sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
    ```
 
-   
-
 2. Setup Plugins and Themes
 
-   ***zsh-autosuggestions*** and ***zsh-syntax-highlighting***
+   **_zsh-autosuggestions_** and **_zsh-syntax-highlighting_**
 
    1. Clone
 
@@ -54,8 +50,6 @@
       git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
       ```
 
-      
-
    2. Configure `.zshrc`
 
       ```bash
@@ -68,5 +62,3 @@
       plugins=(git zsh-autosuggestions)
       ...
       ```
-
-      
