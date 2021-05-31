@@ -59,6 +59,6 @@
       ZSH_THEME="robbyrussel"
       ...
       # Plugins (separated by :space:)
-      plugins=(git zsh-autosuggestions)
+      plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
       ...
       ```
