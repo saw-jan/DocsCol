@@ -9,14 +9,15 @@
    go install github.com/bazelbuild/buildtools/buildifier@latest
    ```
 
-   [How to use?](https://chromium.googlesource.com/external/github.com/bazelbuild/buildtools/+/HEAD/buildifier/README.md)
+3. Copy buildifier executable from `~/go/bin/buildifier` to `/usr/local/bin`
 
-**Note:** If you see error: `command not found: buildifier` then copy buildifier executable from `~/go/bin/buildifier` to `/usr/local/bin`
+   [How to use?](https://chromium.googlesource.com/external/github.com/bazelbuild/buildtools/+/HEAD/buildifier/README.md)
 
 ### Use with VSCode
 
-1. Open vscode `settings.json`
-2. Add the following configs:
+1. Install `Bazel` vscode extension
+2. Open vscode `settings.json`
+3. Add the following configs:
 
    ```json
    {
