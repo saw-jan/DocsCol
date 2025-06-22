@@ -47,7 +47,7 @@
       **zsh-syntax-highlighting**
 
       ```bash
-      git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+      git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
       ```
 
    2. Configure `.zshrc`
@@ -62,3 +62,5 @@
       plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
       ...
       ```
+
+      Themes you may like: https://github.com/saw-jan/zsh-themes
